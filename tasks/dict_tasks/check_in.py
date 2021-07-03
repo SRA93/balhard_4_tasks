@@ -33,9 +33,11 @@ USERS = {
 
 
 def check_in(users: dict, key: Any) -> bool:
-    # TODO вставить код сюда
-    result = None
-    return result
+
+    login in USERS
+    result = print
+
+
 
 
 if __name__ == '__main__':

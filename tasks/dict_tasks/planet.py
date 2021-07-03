@@ -22,7 +22,7 @@ get_planet_name(3) -> 'Земля'
 
 
 def get_planet_name(planet_num: int) -> str:
-    result = None
+    result = planet_num.get()
     return result
 
 

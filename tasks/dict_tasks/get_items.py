@@ -15,10 +15,9 @@ WORKERS = {
 
 
 def get_workers(workers: dict):
-    # TODO вставить код сюда
-    result = None
-    return result
 
+    result = workers.items()
+    return result
 
 if __name__ == '__main__':
     print('Дни рождения сотрудников:')

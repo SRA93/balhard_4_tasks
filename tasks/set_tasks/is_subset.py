@@ -9,9 +9,8 @@ False, если нет
 
 
 def is_subset(set_1: set, set_2: set) -> bool:
-    # TODO вставить код сюда
-    result = None
-    return result
+    exist_set = set_1.issubset(set_2)
+    return exist_set
 
 
 if __name__ == '__main__':

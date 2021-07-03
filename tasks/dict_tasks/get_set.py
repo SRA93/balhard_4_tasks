@@ -10,10 +10,9 @@ from typing import Any
 
 
 def get_or_set(collection: dict, key: Any) -> Any:
-    # TODO вставить код сюда
-    result = None
-    return result
 
+    result = collection.get(3,'3')
+    return result
 
 if __name__ == '__main__':
     some_dict = {1: 100, 2: 200}
