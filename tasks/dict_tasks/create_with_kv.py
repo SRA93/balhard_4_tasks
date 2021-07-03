@@ -21,16 +21,11 @@ USERS == {
     }
 }
 """
-
-
+users = {}
 
 
 def save_user(users_list: dict, user_data: dict) -> dict:
-    log = user_data.pop('login')
-
-    users_list[log] = user_data
-    login = user_data.pop("login")
-    users_list[login] = user_data
+    # TODO вставить код сюда
     return users_list
 
 
