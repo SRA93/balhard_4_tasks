@@ -28,11 +28,12 @@ users = {
 
 
 def del_user(users_dict: dict, login: Any) -> dict:
-    result = users_dict.pop(1)
-
+    result = users_dict.pop(login)
+    return result
 
 
 if __name__ == '__main__':
+
     d_user = input('Введите логин для удаления: ')
     user_exist = d_user in users
     try:

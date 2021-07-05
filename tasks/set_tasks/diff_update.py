@@ -7,9 +7,10 @@
 
 
 def diff_update(set_1: set, set_2: set) -> set:
-    set_new = set.difference_update(set_1, set_2)
-    result = set_new
-    return result
+
+    set.difference_update(set_1, set_2)
+
+    return set_1
 
 
 if __name__ == '__main__':

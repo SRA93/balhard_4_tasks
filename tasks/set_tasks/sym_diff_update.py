@@ -7,7 +7,7 @@
 
 
 def sym_diff_update(set_1: set, set_2: set) -> set:
-    set_1 = set_1.symmetric_difference_update(set_2)
+    set.symmetric_difference_update(set_1, set_2)
     return set_1
 
 

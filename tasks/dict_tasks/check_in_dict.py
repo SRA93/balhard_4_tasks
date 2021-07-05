@@ -34,13 +34,12 @@ USERS = {
 
 def check_in(users: dict, key: Any) -> bool:
 
-    login in USERS
-    result = print
-
-
+    result = key in users
+    return result
 
 
 if __name__ == '__main__':
+
     login = input('Введите login: ')
     print(f"Логин '{login}' "
           f"{'есть' if check_in(USERS, login) else 'не найден'} в системе")

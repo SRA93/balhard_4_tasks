@@ -24,8 +24,6 @@ def add_to_list(s_list: list, element: str) -> list:
     return s_list.append(element)
 
 
-
-
 if __name__ == '__main__':
     print('Создаем список покупок. Для выхода введите \'exit\'')
     while True:

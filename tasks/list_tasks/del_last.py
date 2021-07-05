@@ -14,7 +14,6 @@ def del_last(collection: list) -> int:
     return collection.pop()
 
 
-
 if __name__ == '__main__':
     print("Ту ду ду")
     print(f"Клиент номер {del_last(client_list)}, подойдите к окошку номер 3")

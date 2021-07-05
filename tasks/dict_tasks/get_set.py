@@ -11,8 +11,9 @@ from typing import Any
 
 def get_or_set(collection: dict, key: Any) -> Any:
 
-    result = collection.get(3,'3')
+    result = collection.setdefault(key, 3)
     return result
+
 
 if __name__ == '__main__':
     some_dict = {1: 100, 2: 200}

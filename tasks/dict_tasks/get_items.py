@@ -19,6 +19,7 @@ def get_workers(workers: dict):
     result = workers.items()
     return result
 
+
 if __name__ == '__main__':
     print('Дни рождения сотрудников:')
     for worker, date_of_birth in get_workers(WORKERS):

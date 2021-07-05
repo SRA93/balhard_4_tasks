@@ -20,9 +20,8 @@ TODAY_LOG = [
 
 
 def count_elements(collection: list, element: Any) -> int:
-    error_count = collection.count('500 Error')
+    error_count = collection.count(element)
     return error_count
-
 
 
 if __name__ == '__main__':

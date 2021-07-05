@@ -9,7 +9,8 @@ shopping_list = ["молоко", "сметана", "сыр"]
 
 def del_by_num(collection: list, num: int) -> list:
 
-    return collection.pop(num -1)
+    collection.pop(num - 1)
+    return collection
 
 
 if __name__ == '__main__':
